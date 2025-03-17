@@ -1,0 +1,475 @@
+@font-face {
+    font-family :'CaviarDreams';
+    src : url('../../font/CaviarDreams.eot');
+    src : url('../../font/CaviarDreams.woff') format('woff'),
+        url('../../font/CaviarDreams.ttf') format('truetype'),
+        url('../../font/CaviarDreams.woff2') format("woff2"),
+        url('../../font/CaviarDreams.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CaviarDreams',sans-serif;
+    background-color:black;
+    overflow-x: hidden;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{color: #ff0000;}
+
+/*------------------------MENU-------------------------*/
+#burger{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(0,0,0,0);
+    border: solid 2px white;
+    position: absolute;
+    cursor: pointer;
+    outline-style:none;
+    top: 9px;
+    z-index: 9999;
+    display: none;
+    left:47%;
+}
+
+#burger:hover{
+    width: 45px;
+    height: 45px;
+    left: 46.5%;
+    top:8px;
+    transition: 0.1s;
+
+}
+.barre{
+    background-color: white;
+    width: 25px;
+    height: 2px;
+    margin: 7px auto;
+    display: block;
+}
+
+#logo-mini{ 
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    background: url(../images/logo-mini.png);
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: 10px;
+    display: none;
+}
+
+#logo-mini:hover{
+    background: url(../images/logo-mini-hover.png);
+}
+nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+    z-index: 9;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+nav ul li{
+    margin-left: 7%;
+}
+
+#anglais{
+    width: 30px;
+    height: 30px;
+}
+
+#menu-deroulant{
+    position: fixed;
+    text-align: center;
+    margin-top: 60px;
+    background-color: black;
+    width:100%;
+    height: 430px;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: none;
+    z-index: 9;
+}
+#menu-deroulant img{
+    width:50px;
+}
+#menu-deroulant li{
+    border-top: solid 2px grey;
+    box-sizing: border-box;
+    position: relative;
+}
+#menu-deroulant li:nth-child(1){
+    padding-top:22px;
+}
+
+#menu-deroulant li:last-child{
+    border-bottom: solid 2px grey;
+}
+#menu-deroulant li:visited{
+    background-color: #aa0000;
+}
+
+/*--------------------------FOLD------------------------*/
+
+#bgvideo{
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: -10;
+}
+
+#section1{
+    width: 100%;
+    height: 804px;
+    text-align: center;
+    background-size: 100%;
+    margin:0 auto;
+    background:none;
+    background-size: 100%;
+    position: absolute;
+    z-index:1;
+}
+
+#audio{
+    padding-top: 30px;
+    cursor: pointer;
+}
+#section1 h1{
+    color:white;
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 50px
+
+}
+
+#section1 p{
+    color:white;
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 20px;
+
+}
+
+/*--------------------------------RESEAU------------------*/
+
+#facebook{
+    position: fixed;
+    width: 28px;
+    height: 27px;
+    margin-left: 97%;
+    margin-top: 300px;
+    background: url(../images/reseau/facebook.png);
+    cursor: pointer;
+}
+
+#soundcloud{
+    position: fixed;
+    width: 28px;
+    height: 27px;
+    margin-left: 97%;
+    margin-top: 340px;
+    background: url(../images/reseau/soundcloud.png);
+    cursor: pointer;
+}
+
+#twitter{
+    position: fixed;
+    width: 28px;
+    height: 27px;
+    margin-left: 97%;
+    margin-top: 380px;
+    background: url(../images/reseau/twitter.png);
+    cursor: pointer;
+}
+
+
+#youtube{
+    position: fixed;
+    width: 28px;
+    height: 27px;
+    margin-left: 97%;
+    margin-top: 420px;
+    background: url(../images/reseau/youtube.png);
+    cursor: pointer;
+}
+
+/*--------------------------INFO PRINCIPALES------------------*/
+#logo{
+    margin-top: 6%;
+}
+
+#buyticket{
+    cursor: pointer;
+    margin:50px auto;
+    width: 227px;
+    height: 77px;
+    background-color: white;
+    background: url(bouton-buy.png);
+}
+#buyticket:hover{
+    background: url(bouton-buy-hover.png)
+}
+
+
+/*-------------------------ABOUT------------------------*/
+
+#sectionabout{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    padding-top: 1050px;
+}
+
+#sectionabout p{
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+#traitblanc{
+    background-color: white;
+    width: 600px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+#image-foule{
+    background: url(backgrounds/foule.jpg)no-repeat fixed;
+    width: 100%;
+    height: 150px;
+}
+
+/*---------------LINEUP-------------*/
+
+#lineup{
+    background-color: black;
+    width: 1280px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+#article{
+    padding-top: 100px;
+    color: white;
+    font-size: 16px;
+    width: 30%;
+    line-height: 20px; 
+}
+
+#tetes{
+    width: 51.5625%;
+    height: 602px;
+    margin-top: 100px;
+}
+
+.bouton{
+    font-size: 16px;
+    text-align: center;
+    width:120px;
+    height:30px;
+    line-height: 30px;
+    border: solid 1px white;
+    display:inline-block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+#bouton_lineup a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*--------------MERCH-------------*/
+
+#merch{
+    background: url(backgrounds/merch-background.jpg)no-repeat;
+    width: 100%;
+    height: 750px;
+    background-size:100%; 
+    background-color: black;
+}
+
+#bouton-merch{
+    text-align: center;
+    padding-top: 320px;
+}
+
+/*-----------SECTION PACK-----------*/
+
+#section-pack{
+    width:1280px;
+    height:800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+
+}
+
+#photos{
+    margin-left: 5%;
+    margin-top: 100px;
+    width: 458px;
+    height: 548px;
+}
+
+#article-pack{
+    color: white;
+    font-size: 16px;
+    width: 30%;
+    line-height: 20px;
+    padding-right: 15%;
+    padding-top:90px;
+}
+
+#bouton-pack a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*------------FOOTER------------------*/
+
+footer{
+    background-image: url(backgrounds/footer-background.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+#footer-conteneur{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    margin: 50px auto;
+    position: absolute;
+
+}
+
+#footer-conteneur h2{
+    color: white;
+    font-weight: bold;
+    font-size:16px;
+    margin-bottom: 20px;
+}
+
+#trait-violet{
+    width: 100px;
+    height: 2px;
+    background-color: purple;
+    margin: 0 auto;
+}
+
+#footer-conteneur p{
+    margin-top: 20px;
+}
+#telmailadresse{
+    display: flex;
+    width: 1280px;
+    justify-content: center;
+    margin: 20px auto;
+    justify-content: space-between;
+
+}
+.trait-rouge{
+    width:100px;
+    height: 2px;
+    background-color: red;
+    margin:0 auto;
+}
+#tel h3{
+    margin-bottom: 20px;
+
+}
+#tel p{
+    margin-top: 20px;
+
+}
+#email{
+    margin-left: 11%
+}
+
+#email h3{
+    margin-bottom: 20px;
+
+}
+#email p{
+    margin-top: 20px;
+
+}
+
+
+#adresse h3{
+    margin-bottom: 20px;
+
+}
+#adresse p{
+    margin-top: 20px;
+
+}
+#footer-conteneur h3{
+    color: white;
+    font-weight: bold;
+    font-size:16px;
+}
+
+#footer-conteneur p{
+    z-index: 10;
+    color: white;
+    font-weight: bold;
+    font-size:16px;
+}
+
+footer ul li{
+    margin-top: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#bloc-sponsors{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#bloc-sponsors h3{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+#bloc-sponsors img{
+    padding-top: 40px;
+
+}

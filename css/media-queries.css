@@ -1,0 +1,155 @@
+@media screen and (max-width:1360px){
+    #telmailadresse{width: 800px;}
+}
+@media screen and (max-width:1200px){
+    #section1{background: url(../images/header-background.jpg)}
+    #audio{display: none;}
+    video{display: none;}
+    #menu li{display: none;}
+    #burger{display: block;}
+    #logo{margin-top: 100px;}
+    #facebook{background: url(../images/reseau/reseauresponsive/facebook.png);
+        width: 60px;
+        height: 60px;
+        margin-left: 92%;}
+    #soundcloud{background: url(../images/reseau/reseauresponsive/soundcloud.png);
+        margin-top: 370px;
+        width: 60px;
+        height: 60px;
+        margin-left: 92%;}
+    #twitter{background: url(../images/reseau/reseauresponsive/twitter.png);
+        margin-top: 440px;
+        width: 60px;
+        height: 60px;
+        margin-left: 92%;}
+
+    #youtube{background: url(../images/reseau/reseauresponsive/youtube.png);
+        margin-top: 510px;
+        width: 60px;
+        height: 60px;
+        margin-left: 92%;}
+
+    #sectionabout{
+        width: 100%;
+        height: 600px;
+        background-color: black;
+        text-align: left;}
+
+    #sectionabout p{
+        color: white;
+        font-weight: bold;
+        padding-top: 30px;
+        line-height: 36px;
+        font-size: 36px;
+        width: 600px;
+        margin: 0 auto;}
+
+    #image-foule{display: none;}
+
+    #lineup{
+        display: block;
+        width: 750px;
+        height: 1400px;}
+
+    #article{
+        width: 500px;
+        height: 500px;
+        margin-left:7%}
+
+    #lineup p{
+        color: white;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: justify;
+        font-weight: lighter;}
+
+    .bouton{
+        font-size: 16px;
+        text-align: center;
+        width:400px;
+        height:100px;
+        line-height: 100px;
+        border: solid 2px white;
+        display:inline-block;
+        margin: 40px auto;
+        font-weight: bold;
+        font-size: 40px;}
+
+    #bouton_lineup a:hover{
+        color: black;
+        background-color: white;}
+
+    #tetes{
+        width: 660px;
+        height: 602px;
+        margin-top: -1px;}
+
+    /*-------------------MERCH--------------------*/
+
+    #merch{height: 320px;}
+    #bouton-merch{
+        text-align: center;
+        padding-top: 60px;}
+
+    /*--------------- SECTION PACK--------------*/
+
+    #section-pack{
+        background-color: black;
+        width: 100%;
+        height: 1100px;
+        text-align: center;
+        display: block;
+
+    }
+
+    #photos{
+        margin-top: 50px;
+        width: 458px;
+        height: 548px;
+        margin: 50px auto;
+    }
+
+    #article-pack{
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;}
+
+    #section-pack p{
+        color: white;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: justify;
+        font-weight: lighter;}
+
+    #bouton-pack a:hover{
+        color: black;
+        background-color: white;
+        margin: 500px auto;}
+
+    /*---------------FOOTER------------*/
+    footer{height: 600px;}
+
+    #footer-conteneur{height:600px;}
+
+    #footer-conteneur h2{font-size: 30px;}
+
+    #footer-conteneur h3{font-size: 30px;}
+
+    #footer-conteneur p{font-size:30px;}
+
+    #telmailadresse{
+        display: block;
+        width: 100%;}
+
+    #email{margin-left:0;}
+
+    footer ul li{display: none;}
+
+    #bloc-sponsors{padding-top: 700px;}
+
+    #bloc-sponsors h3{font-size: 30px;}
+
+    #bloc-sponsors img{width:}
+}
+
+

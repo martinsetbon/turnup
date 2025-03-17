@@ -1,0 +1,90 @@
+@font-face{
+    font-family : "CaviarDreams";
+    src : url('../font/CaviarDreams.eot');
+    src : url('../font/CaviarDreams.woff') format('woff'),
+        url('../font/CaviarDreams.svg#abcd') format('svg'),
+        url('../font/CaviarDreams.ttf') format('truetype');
+}
+
+body {
+    font-family: Caviar Dreams;
+}
+
+#wrapper{
+    height:768px;
+    width: 500px;
+    background-color: black;
+}
+
+#croix{
+    position: absolute;
+    padding-left: 475px;
+    padding-top: 5px;
+    
+}
+#haut{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    text-align-last: center
+}
+p{
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    text-align: justify;
+    margin: 10px;
+
+}
+
+ul{
+    margin: 10px;
+}
+ul li{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px
+
+}
+
+#bas{
+    background: url(../images/red-bgd.png)no-repeat;
+    display: flex;
+  
+}
+
+#drake{
+    margin-top: -77px;
+    margin-left: 20px;
+}
+
+#youtube{
+    padding-top: 110px;
+    text-align: center;
+    
+}
+
+#youtube p{
+    width: 168px;
+    font-weight: bold
+}
+
+#ovo{
+    width: 49p;
+    height: 79px;
+    padding-top:224px;
+}

@@ -1,0 +1,147 @@
+
+
+@font-face{
+    font-family : "CaviarDreams";
+    src : url('../font/CaviarDreams.eot');
+    src : url('../font/CaviarDreams.woff') format('woff'),
+        url('../font/CaviarDreams.svg#abcd') format('svg'),
+        url('../font/CaviarDreams.ttf') format('truetype');
+}
+
+body {
+    font-family: Caviar Dreams;
+    background-color:black;
+    background-size: cover;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{color: #ff0000;}
+
+#popup{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 1080px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#popup p{
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+}
+
+/*------------------------MENU-------------------------*/
+#burger{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(0,0,0,0);
+    border: solid 1px white;
+    position: absolute;
+    cursor: pointer;
+    outline-style:none;
+    top: 9px;
+    z-index: 9999;
+    display: none;
+    left:47%;
+}
+
+#burger:hover{
+    width: 45px;
+    height: 45px;
+    left: 46.5%;
+    top:8px;
+    transition: 0.1s;
+
+}
+.barre{
+    background-color: white;
+    width: 25px;
+    height: 1px;
+    margin: 7px auto;
+    display: block;
+}
+
+#logo-mini{ 
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    background: url(../images/logo-mini.png);
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: 10px;
+}
+
+#logo-mini:hover{
+    background: url(../images/logo-mini-hover.png);
+}
+nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+    z-index: 9;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-right: 8%;
+
+}
+
+nav ul li{
+    margin-left: 7%;
+}
+
+nav ul li:nth-child(3) a{
+    color: red;
+}
+
+
+#menu-deroulant{
+    position: fixed;
+    text-align: center;
+    margin-top: 60px;
+    background-color: black;
+    width:100%;
+    height: 533px;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: none;
+    z-index: 9;
+}
+#menu-deroulant img{
+    width:50px;
+}
+#menu-deroulant li{
+    border-top: solid 2px grey;
+    box-sizing: border-box;
+    position: relative;
+}
+#menu-deroulant li:nth-child(1){
+    padding-top:22px;
+}
+
+#menu-deroulant li:last-child{
+    border-bottom: solid 2px grey;
+}
+#menu-deroulant li:visited{
+    background-color: #aa0000;
+}
+
+#centre{
+    background: url(../images/Desktop_turnup_meet-and-greet.jpg)no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 1080px;
+    cursor: pointer;
+}

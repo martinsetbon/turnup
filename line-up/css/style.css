@@ -1,0 +1,462 @@
+@font-face{
+    font-family : "CaviarDreams";
+    src : url('../font/CaviarDreams.eot');
+    src : url('../font/CaviarDreams.woff') format('woff'),
+        url('../font/CaviarDreams.svg#abcd') format('svg'),
+        url('../font/CaviarDreams.ttf') format('truetype');
+}
+
+body {
+    font-family: Caviar Dreams;
+    height:100%;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+a:hover{color: #ff0000;}
+
+/*-------------------POPUP-----------------------*/
+
+#popup{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+#fenetre{
+    height:768px;
+    width: 500px;
+    background-color: black;
+    cursor: pointer;
+    margin: 100px auto;
+}
+
+#croix{
+    position: absolute;
+    padding-left: 475px;
+    padding-top: 5px;
+
+}
+
+#haut{
+    display: flex;
+    margin-bottom: 15px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    text-align-last: center
+}
+p{
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    width: 200px;
+    text-align: justify;
+    margin: 10px;
+
+}
+
+#popup ul{
+    margin: 10px;
+}
+
+#popup ul li{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px
+
+}
+
+#bas{
+    background: url(../images/red-bgd.png)no-repeat;
+    display: flex;
+
+}
+
+#drake{
+    margin-top: -77px;
+    margin-left: 20px;
+}
+
+#iframeyoutube{
+    padding-top: 110px;
+    text-align: center;
+
+}
+
+#iframeyoutube p{
+    width: 168px;
+    font-weight: bold
+}
+
+#ovo{
+    width: 49p;
+    height: 79px;
+    padding-top:224px;
+}
+
+/*-------------------NAVIGATION-------------------*/
+
+#burger{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(0,0,0,0);
+    border: solid 1px white;
+    position: absolute;
+    cursor: pointer;
+    outline-style:none;
+    top: 9px;
+    z-index: 9999;
+    display: none;
+    left:47%;
+}
+
+#burger:hover{
+    width: 45px;
+    height: 45px;
+    left: 46.5%;
+    top:8px;
+    transition: 0.1s;
+
+}
+.barre{
+    background-color: white;
+    width: 25px;
+    height: 1px;
+    margin: 7px auto;
+    display: block;
+}
+
+#logo-mini{
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    background-image:url(logo-mini.png);
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    position: absolute;
+    z-index: 999;
+
+}
+
+#logo-mini:hover{
+    background-image:url(logo-mini-hover.png);
+    background-repeat:no-repeat;
+    background-position:0px 0px
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    position:fixed;
+    background-color: black;7
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+nav ul li:nth-child(2) a{
+    color: red;
+}
+
+#anglais{
+    margin-top: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+#menu-deroulant{
+    position: fixed;
+    text-align: center;
+    margin-top: 60px;
+    background-color: black;
+    width:100%;
+    height: 650px;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: none;
+
+}
+
+#menu-deroulant img{
+    width:50px;
+}
+
+#menu-deroulant li{
+    border-top: solid 2px grey;
+    box-sizing: border-box;
+}
+
+#menu-deroulant li a:hover{
+    background-color: white;
+}
+
+#menu-deroulant li:nth-child(1){
+    padding-top:22px;
+}
+
+#menu-deroulant li:visited{
+    background-color: #aa0000;
+}
+
+/*-------------------CENTRE-------------------*/
+
+#central{
+    width: 100%;
+    height: 100%;
+}
+
+#lineup{
+    display: flex;
+}
+
+#lineup li{
+    color: black;
+    background: url(../images/noir-blanc/torynb.jpg)no-repeat right bottom;
+    background-size:cover;
+    width: 804px;
+    height: 1080px;
+    flex:1;
+    border-right:solid 3px white;
+    transition:all 0.3s;
+}
+#lineup li:hover{
+    background: url(../images/tory.jpg)no-repeat right;
+    background-size:cover;
+}
+#lineup li:active{
+    background: url(../images/tory.jpg)no-repeat right;
+    background-size:cover;
+}
+
+
+#lineup li:nth-child(2){
+    background: url(../images/noir-blanc/travisnb.jpg)no-repeat center;
+    background-size:cover;
+}
+
+#lineup li:nth-child(2):hover{
+    background: url(../images/travis.jpg)no-repeat center;
+    background-size:cover;
+}
+
+#lineup li:nth-child(2):active{
+    background: url(../images/travis.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+
+#lineup li:nth-child(3){
+    background: url(../images/noir-blanc/trey-songznb.jpg)no-repeat center;
+    background-size:cover;
+}
+
+#lineup li:nth-child(3):hover{
+    background: url(../images/trey-songz.jpg)no-repeat center;
+    background-size:cover;
+}
+
+#lineup li:nth-child(3):active{
+    background: url(../images/trey-songz.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+#lineup li:nth-child(4){
+    background: url(../images/noir-blanc/futurenb.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(4):hover{
+    background: url(../images/future.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(4):active{
+    background: url(../images/future.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+#lineup li:nth-child(5){
+    background: url(../images/noir-blanc/drakenb.jpg)no-repeat center;
+    background-size:cover;
+    cursor:pointer;
+}
+
+#lineup li:nth-child(5):hover{
+    background: url(../images/drake.jpg)no-repeat center;
+    background-size:cover;
+}
+
+#lineup li:nth-child(5):active{
+    background: url(../images/drake.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+
+#lineup li:nth-child(6){
+    background: url(../images/noir-blanc/jeremihnb.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(6):hover{
+    background: url(../images/jeremih.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(6):active{
+    background: url(../images/jeremih.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+
+#lineup li:nth-child(7){
+    background: url(../images/noir-blanc/pndnb.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(7):hover{
+    background: url(../images/pnd.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(7):active{
+    background: url(../images/pnd.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+
+#lineup li:nth-child(8){
+    background: url(../images/noir-blanc/bigs-seannb.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(8):hover{
+    background: url(../images/bigs-sean.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(8):active{
+    background: url(../images/bigs-sean.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+
+#lineup li:nth-child(9){
+    background: url(../images/noir-blanc/weekndnb.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(9):hover{
+    background: url(../images/weeknd.jpg)no-repeat center;
+    background-size:cover;
+}
+#lineup li:nth-child(9):active{
+    background: url(../images/weeknd.jpg)no-repeat center;
+    background-size:cover;
+}
+
+
+#lineup li:nth-child(10){
+    background: url(../images/noir-blanc/nickinb.jpg)no-repeat center;
+    background-size:cover;
+    border-right:none
+}
+#lineup li:nth-child(10):hover{
+    background: url(../images/nicki.jpg)no-repeat center;
+    background-size:cover;
+    border-right:none
+}
+#lineup li:nth-child(10):active{
+    background: url(../images/nicki.jpg)no-repeat center;
+    background-size:cover;
+    border-right:none
+}
+
+#lineup li:hover{
+    flex:2;
+}
+
+/*-------------------RESEAU-------------------*/
+
+#reseau{
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 47.5%;
+
+}
+
+#reseau li{
+    display: inline-block;
+}
+
+#soundcloud{
+    width: 28px;
+    height: 27px;
+    background: url(../images/reseau/soundcloud.png)no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#twitter{
+    width: 28px;
+    height: 27px;
+    background: url(../images/reseau/twitter.png)no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#youtube{
+    width: 28px;
+    height: 27px;
+    background: url(../images/reseau/youtube.png)no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#contact{
+    text-align: center;
+    background-color: #e50000;
+    width:100%;
+    height: 240px;
+    display: none;
+}
+
+#contact h2{
+    font-size: 2em;
+    padding-top: 50px;
+    color: black;
+}
+
+#appelez-nous{
+    background: url(../images/750/apellez-nous.jpg)no-repeat;
+    background-size: 100%;
+    width:100%;
+    height: 120px;
+    cursor: pointer;
+    display: none;
+}
+
+#appelez-nous:active{background: url(../images/750/apellez-nous-hover.jpg);}
